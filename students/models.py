@@ -16,7 +16,7 @@ class Student(models.Model):
         return f'student: {self.first_name} {self.last_name}'
     
     class Meta:
-        db_table = "Students"
+        db_table = "student"
     
     
 
@@ -28,7 +28,7 @@ class Department(models.Model):
     department_id = models.PositiveIntegerField(primary_key=True, auto_created=False)
     deparment_name = models.CharField(max_length=100,  choices=department_choices)
     class Meta:
-        db_table = "departments"
+        db_table = "department"
     
     def __str__(self):
         return f'Department: {self.deparment_name}, Dept_ID: {self.department_id}'
