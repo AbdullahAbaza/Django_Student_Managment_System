@@ -137,6 +137,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Django Documentation
 - Bootstrap Documentation
 
-## Contact
-
-For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
