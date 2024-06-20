@@ -50,6 +50,8 @@ This is a Django-based web application for managing students and departments wit
 
 4. **Apply migrations:**
 
+   follow this reference to create new user and database before applying migrations [https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-20-04`]
+
    Database Configuration first
    The database settings are located in `django_project/settings.py`:
 

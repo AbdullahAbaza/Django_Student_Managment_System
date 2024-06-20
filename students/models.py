@@ -22,11 +22,11 @@ class Student(models.Model):
 
 
 
-departments = ['Computer Science', 'Electirical Engineering', 'Civil Engineering', 'Mechanical Engineering', 'Business Administration']
-department_choices = sorted([(item, item) for item in departments])
+# departments = ['Computer Science', 'Electirical Engineering', 'Civil Engineering', 'Mechanical Engineering', 'Business Administration']
+# department_choices = sorted([(item, item) for item in departments])
 class Department(models.Model):
     department_id = models.PositiveIntegerField(primary_key=True, auto_created=False)
-    department_name = models.CharField(max_length=100,  choices=department_choices)
+    department_name = models.CharField(max_length=100) #,  choices=department_choices)
     class Meta:
         db_table = "department"
     
